@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+
+
+body {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
+	font-size: 1em;
+	
+	background-image: url("1background.gif");
+	background-repeat: no-repeat;  
+	background-size: 850px 850px;
+	background-color: #fff;
+	background-position: center;
+	background-position: 50% 50%;
+	background-attachment:fixed;
+	
+}
+
+
+.bt{
+	display:block;
+	list-style:none;
+	background: rgba(255,255,255,0);
+	width:850px;
+	height:175px;
+	position: absolute;
+    left: 50px;
+    right: 30px;
+	top: 665px;
+	bottom: 50px;
+    
+	margin:auto;
+	attachment:fixed;
+
+}
+	
+
+

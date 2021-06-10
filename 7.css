@@ -1,0 +1,88 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html,body {
+    height: 100%;
+	margin: 0px;
+}
+
+body {
+   	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
+	font-size: 1em;
+	/*背景画像の全画面の設定*/
+	background-image: url("772.gif");
+	background-repeat: no-repeat;  
+	background-size: 850px 850px;
+	background-color: #B4323;
+	background-position: center;
+	background-position: 50% 50%;
+	background-attachment:fixed;
+}
+ 
+#container{
+	
+}
+
+.bt a img{
+	display:block ;
+	width:390px;
+	height:390px;
+	background-repeat:no-repeat;
+	position:absolute;
+	top: 250px;
+	bottom:220px;
+	right: 50px;
+	margin-right:-100px;
+	
+	background-attachment:fixed;
+}
+
+/*
+.bt{
+	display:block;
+	list-style:none;
+	background:#9C090B;
+	width:65px;
+	height:55px;
+	position: absolute;
+    left: 860px;
+    right: 30px;
+	top:165px;
+    
+	margin: auto;
+	attachment:fixed;
+	*/
+ 
+
+/*********************************コンテンツサイズの設定*/
+
+	
+}
+/*********************************リンクボタンの設定*/
+/*.bt a{
+	display:block;
+	text-decoration:none;
+	color:#000;
+	/*padding: 135px 100px 135px 125px;*/
+	margin-top: 0px;
+	padding-top: 35px;
+	padding-bottom: 141px;
+}*/
+/*未訪問のリンク*/
+.bt a:link{
+	color:#Transparent;
+}
+/*訪問済みのリンク*/
+.bt a:visited{
+	color:#Transparent;
+}
+/*マウスホバー時*/
+.bt a:hover{
+	background-color:#Transparent;
+	color:#Transparent;
+}
+/*マウスクリック*/
+.bt a:active{
+	background-color:#Transparent;
+	color:#Transparent;
+}

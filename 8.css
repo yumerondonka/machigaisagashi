@@ -1,0 +1,68 @@
+@charset "UTF-8";
+body {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
+	font-size: 1em;
+	
+	background-image: url("終わりレイヤー2.gif");
+	background-repeat: no-repeat;  
+	background-size: 850px 850px;
+	background-color: #fff;
+	background-position: center;
+	background-position: 50% 50%;
+	background-attachment:fixed;
+	
+}
+
+
+
+h1 {
+	font-size: 48px;
+}
+
+h2 {
+	font-size: 16px;
+	background-color: #EDEBD7;
+	margin: 0px;
+	padding: 0px;
+}
+
+li {
+	font-size: 12px;
+	list-style-position: inside;
+}
+
+p {
+	color: #39F;
+}
+
+#zairyo {
+	width: 280px;
+	float: left;
+	margin: 5px;
+	padding: 0px;
+	/*background-color:#3CC;*/
+}
+#steps {
+	width: 500px;
+	float: left;
+	margin: 5px;
+	padding: 0px;
+	/*background-color:#F69;*/
+}
+
+
+img.sakusya {
+	margin: 5px;
+	float: left;
+	padding: 5px;
+}
+img.recipe {
+	float: left;
+	margin: 5px;
+}
+
+.sakusya {
+	float: left;
+	width: 580px;
+	margin: 5px;
+}
